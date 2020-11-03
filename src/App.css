@@ -14,3 +14,10 @@ body {
 .question {
   padding: 0.4rem 0;
 }
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+  color: #b0b0b0;
+}

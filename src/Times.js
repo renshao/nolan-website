@@ -11,7 +11,6 @@ function Times() {
       a = randomInt(3, 6);
       b = randomInt(1, 9);
       questionHashcode = hashcode(a, b);
-      console.log(questionHashcode);
     } while (questionHashcodeSet.has(questionHashcode));
     questionHashcodeSet.add(questionHashcode);
     questions.push(<div key={`q${questionHashcode}`} className="question">{a} × {b} = </div>);
