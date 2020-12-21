@@ -21,3 +21,9 @@ body {
   font-size: 0.8rem;
   color: #b0b0b0;
 }
+
+@media print {
+  .answer {
+    display: none;
+  }
+}

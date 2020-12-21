@@ -13,7 +13,7 @@ function Times() {
       questionHashcode = hashcode(a, b);
     } while (questionHashcodeSet.has(questionHashcode));
     questionHashcodeSet.add(questionHashcode);
-    questions.push(<div key={`q${questionHashcode}`} className="question">{a} × {b} = </div>);
+    questions.push(<div key={`q${questionHashcode}`} className="question">{a} × {b} = <span className="answer">{a * b}</span></div>);
   }
 
   return (
